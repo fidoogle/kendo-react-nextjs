@@ -5,7 +5,8 @@ const Buttons = () => {
         <>
             <Nav/>
             <div>
-                This is the buttons page.
+                <h2>Buttons</h2>
+                The buttons will go here. 
             </div>
         </>
     )

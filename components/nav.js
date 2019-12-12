@@ -8,19 +8,16 @@ const Nav = () => (
       <a>Home</a>
     </Link>
     <Link href="/chart">
-      <a>Chart</a>
+      <a>Static Chart</a>
     </Link>
-    <Link href="/chart-rxjs-subject">
-      <a>Chart RxJS Subject</a>
+    <Link href="/chart-rxjs-websocket">
+      <a>Websocket Chart</a>
     </Link>
     <Link href="/buttons">
       <a>Buttons</a>
     </Link>
-    <Link href="/websocket">
-      <a>WebSocket</a>
-    </Link>
-    <Link href="/rxjs-websocket">
-      <a>RxJS WebSocket</a>
+    <Link href="/form">
+      <a>Form</a>
     </Link>
 
     <style jsx>{`
@@ -45,7 +42,6 @@ const Nav = () => (
         color: white;
         text-decoration: none;
         font-size: 20px;
-        height: 80px;
         padding: 0 20px;
         
       }

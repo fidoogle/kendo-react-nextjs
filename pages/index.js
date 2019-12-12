@@ -7,6 +7,7 @@ const Index = () => {
         <div>
             <Nav />
             <h2>Welcome</h2>
+            These pages will contain some sample UI built with Kendo.
         </div>
     )
 }
