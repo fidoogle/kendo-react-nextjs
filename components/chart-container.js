@@ -4,7 +4,7 @@ import {
     ChartSeries,
     ChartSeriesItem
 } from '@progress/kendo-react-charts';
-import 'hammerjs';
+import '@egjs/hammerjs'; //version of hammer that also runs on server
 
 
 const ChartContainer = ({seriesData}) => (

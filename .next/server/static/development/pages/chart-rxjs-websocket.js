@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,8 +106,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _progress_kendo_react_charts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @progress/kendo-react-charts */ "@progress/kendo-react-charts");
 /* harmony import */ var _progress_kendo_react_charts__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_progress_kendo_react_charts__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! hammerjs */ "hammerjs");
-/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(hammerjs__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _egjs_hammerjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @egjs/hammerjs */ "@egjs/hammerjs");
+/* harmony import */ var _egjs_hammerjs__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_egjs_hammerjs__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "C:\\Users\\figuajardo\\Sites\\kendo-react-nextjs\\components\\chart-container.js";
 
 
@@ -2052,7 +2052,7 @@ var sendMessages = function sendMessages() {
 
 /***/ }),
 
-/***/ 8:
+/***/ 3:
 /*!*********************************************!*\
   !*** multi ./pages/chart-rxjs-websocket.js ***!
   \*********************************************/
@@ -2061,6 +2061,17 @@ var sendMessages = function sendMessages() {
 
 module.exports = __webpack_require__(/*! C:\Users\figuajardo\Sites\kendo-react-nextjs\pages\chart-rxjs-websocket.js */"./pages/chart-rxjs-websocket.js");
 
+
+/***/ }),
+
+/***/ "@egjs/hammerjs":
+/*!*********************************!*\
+  !*** external "@egjs/hammerjs" ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@egjs/hammerjs");
 
 /***/ }),
 
@@ -2226,17 +2237,6 @@ module.exports = require("core-js/library/fn/symbol");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/symbol/iterator");
-
-/***/ }),
-
-/***/ "hammerjs":
-/*!***************************!*\
-  !*** external "hammerjs" ***!
-  \***************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("hammerjs");
 
 /***/ }),
 

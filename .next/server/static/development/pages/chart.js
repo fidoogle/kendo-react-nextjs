@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,8 +106,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _progress_kendo_react_charts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @progress/kendo-react-charts */ "@progress/kendo-react-charts");
 /* harmony import */ var _progress_kendo_react_charts__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_progress_kendo_react_charts__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! hammerjs */ "hammerjs");
-/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(hammerjs__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _egjs_hammerjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @egjs/hammerjs */ "@egjs/hammerjs");
+/* harmony import */ var _egjs_hammerjs__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_egjs_hammerjs__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "C:\\Users\\figuajardo\\Sites\\kendo-react-nextjs\\components\\chart-container.js";
 
 
@@ -1588,10 +1588,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _progress_kendo_theme_default_dist_all_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_progress_kendo_theme_default_dist_all_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/nav */ "./components/nav.js");
 /* harmony import */ var _components_chart_container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/chart-container */ "./components/chart-container.js");
-/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! hammerjs */ "hammerjs");
-/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(hammerjs__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "C:\\Users\\figuajardo\\Sites\\kendo-react-nextjs\\pages\\chart.js";
-
 
 
 
@@ -1644,20 +1641,20 @@ var Chart = function Chart() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_nav__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 25
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 26
     },
     __self: this
   }, "Static Chart"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_chart_container__WEBPACK_IMPORTED_MODULE_3__["default"], {
     seriesData: seriesData,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 27
     },
     __self: this
   }));
@@ -1667,7 +1664,7 @@ var Chart = function Chart() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 6:
 /*!******************************!*\
   !*** multi ./pages/chart.js ***!
   \******************************/
@@ -1676,6 +1673,17 @@ var Chart = function Chart() {
 
 module.exports = __webpack_require__(/*! C:\Users\figuajardo\Sites\kendo-react-nextjs\pages\chart.js */"./pages/chart.js");
 
+
+/***/ }),
+
+/***/ "@egjs/hammerjs":
+/*!*********************************!*\
+  !*** external "@egjs/hammerjs" ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@egjs/hammerjs");
 
 /***/ }),
 
@@ -1764,17 +1772,6 @@ module.exports = require("core-js/library/fn/symbol");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/symbol/iterator");
-
-/***/ }),
-
-/***/ "hammerjs":
-/*!***************************!*\
-  !*** external "hammerjs" ***!
-  \***************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("hammerjs");
 
 /***/ }),
 

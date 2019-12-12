@@ -1,7 +1,6 @@
 import '@progress/kendo-theme-default/dist/all.css'
 import Nav from '../components/nav'
 import ChartContainer from '../components/chart-container'
-import 'hammerjs';
 
 let seriesData = [
     { month: "Aug 18", volume: 6000 },
