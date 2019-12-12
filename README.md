@@ -1,5 +1,5 @@
 # kendo-react-nextjs
-An example of the KendoReact Grid(Table) in NextJS application.
+This uses Kendo React to showcase parity with some of our styling
 
 Steps to run the application:
 
