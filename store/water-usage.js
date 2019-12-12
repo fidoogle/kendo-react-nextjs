@@ -3,6 +3,12 @@
 
 import { webSocket } from 'rxjs/webSocket';
 
+//server-side only
+if (typeof window === 'undefined') {
+    global.WebSocket = require('ws');
+}
+
+
 const subject = webSocket("wss://echo.websocket.org/");
 
 
