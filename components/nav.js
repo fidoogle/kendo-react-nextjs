@@ -19,6 +19,9 @@ const Nav = () => (
     <Link href="/form">
       <a>Form</a>
     </Link>
+    <Link href="/animated-chart">
+      <a>Animated Chart</a>
+    </Link>
 
     <style jsx>{`
       :global(body) {
