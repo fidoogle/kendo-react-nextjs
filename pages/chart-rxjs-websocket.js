@@ -1,8 +1,9 @@
-import  React, { useState, useEffect, useLayoutEffect } from  "react";
+import  React, { useState, useEffect, useLayoutEffect } from  "react"
 import '@progress/kendo-theme-default/dist/all.css'
 import Nav from '../components/nav'
 import ChartContainer from '../components/chart-container'
 import { waterUsageStore, sendMessages} from '../store/water-usage'
+import JSONPretty from 'react-json-prettify'
 
 const Chart = () => {
     const [waterState, setWaterState] = useState(waterUsageStore.initialState);
@@ -18,8 +19,8 @@ const Chart = () => {
             <Nav/>
             <ChartContainer seriesData={waterState.data} />
             <div>
-                This is the rxjs subject chart page.
-                { JSON.stringify(waterState.data) }
+                This is the data fed thru a websocket every 2 seconds:
+                <JSONPretty json={waterState.data} />
             </div>
         </>
     )

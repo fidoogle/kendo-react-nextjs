@@ -5,13 +5,13 @@ const Nav = () => (
   <div>
   <nav>
     <Link href="/">
-      <a>Home</a>
+      <a>Kendo React</a>
     </Link>
     <Link href="/chart">
       <a>Static Chart</a>
     </Link>
     <Link href="/chart-rxjs-websocket">
-      <a>Websocket Chart</a>
+      <a>Live Data Chart</a>
     </Link>
     <Link href="/buttons">
       <a>Buttons</a>
