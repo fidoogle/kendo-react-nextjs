@@ -14,7 +14,12 @@ const FormPage = () => {
         <div>
             <Nav/>
             <div>
-                <h2>Form</h2>
+                <h2>Kendo Form</h2>
+                <ul>
+                    <li>The date picker is a set width/height and I couldn't make it stretch. Positioning it is also a challenge.</li>
+                    <li>The date picker enables keyboard entry and I couldn't disable it. This allows for users to mistakenly enter a bad date.</li>
+                    <li>The Kendo input field is also hard to stretch.</li>
+                </ul>
                 <div className="center-content">
                     <div className="center-content form-background">
                         <div className="form-container">

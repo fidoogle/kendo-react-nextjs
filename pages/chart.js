@@ -23,7 +23,8 @@ const Chart = () => {
     return (
     <>
         <Nav />
-        <h2>Static Chart</h2>
+        <h2>Kendo Static Chart</h2>
+        <p>This is an out-of-the-box Kendo chart, with little to no further customization. It does provide lots of customization, probably sufficient for our current needs.</p>
         <ChartContainer seriesData={seriesData} />
     </>)
 };

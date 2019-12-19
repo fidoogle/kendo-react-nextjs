@@ -6,10 +6,10 @@ const Animated = () => {
             <Nav />
             <div>
                 <h2>Animated Chart</h2>
+                <p>This is not a Kendo Chart. I just included here to demonstrate the power of using Flutter Web to do charts. 
+                    It is possible to embed these charts within our HTML, in a better way than using &lt;iframe&gt; like I did here.</p>
                 <p>Use the controller to pan thru the data</p>
-                <div className="responsive-container">
-                    <iframe className="responsive-iframe" src="https://larvalabs.com/public/productsites/githubdataviz/index.html#/"></iframe>
-                </div>
+                <iframe height="500" width="800" src="https://larvalabs.com/public/productsites/githubdataviz/index.html#/"></iframe>
             </div>
 
             <style jsx>{`
